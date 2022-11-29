@@ -323,6 +323,7 @@ module nerv #(
 					end
 					default: illinsn = 1;
 				endcase
+				npc = pc;
 			end
 			// immediate ALU instructions: Add Immediate, Set Less Than Immediate, Set Less Than Immediate Unsigned, XOR Immediate,
 			// OR Immediate, And Immediate, Shift Left Logical Immediate, Shift Right Logical Immediate, Shift Right Arithmetic Immediate
